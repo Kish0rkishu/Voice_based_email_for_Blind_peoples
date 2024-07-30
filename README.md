@@ -11,9 +11,7 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/hacky1997/voice-based-email-for-blind/fork)
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
  
-`Created By : Sayak Naskar`
-`License : MIT`
-`Email: sayaknaskar@gmail.com`
+
 
 </p>
 
@@ -37,40 +35,11 @@
  * If `invalid or unsupported audio file` occurs or `Recall that only FLAC, AIFF, and RIFF WAV files are supported` occurs then try this [link](https://stackoverflow.com/questions/25672289/failed-to-open-file-file-wav-as-a-wav-due-to-file-does-not-start-with-riff-id/57349558#57349558). Read the file with `librosa`, then convert it back to a temporary `.wav` file. Then read it back with the `wave` package.
  * Okay so for SMTPAuthenticationError just visit this [site](https://myaccount.google.com/lesssecureapps). Allow the less secure  apps: ON
 
-## Installation
 
-<details><summary>Windows Installation</summary>
-
-#### Installation with Python3
-   ```C:\Users\sayak>git clone https://github.com/hacky1997/voice-based-email-for-blind.git```
-   
-   ```C:\Users\sayak>cd voice-based-email-for-blind```
-   
-   ```C:\Users\sayak>python3 -m pip install -r requirements.txt```
-   
-   ```C:\Users\sayak>python3 voice_based_email_for_blind.py```
- 
-</details>
-
-<details><summary>Linux Installation</summary>
-
-#### Installation with Python3
-  ```root@kali:~/git clone https://github.com/hacky1997/voice-based-email-for-blind.git```
-  
-  ```root@kali:~/cd voice-based-email-for-blind```
-  
-  ```root@kali:~/pip3 install -r requirements.txt```
-  
-  ```root@kali:~/python3 voice_based_email_for_blind.py```
   
 </details>
 
-## Avbin
- * In some system, it requires avbin so keep it as it is. Don't delete those exe files.
- * So install `avbin`. I have provided two types of avbin. Just install one of them according your architecture.
- * If your system needs this then just uncomment line number 13 & 14 in the code.
- * For more info have a look on this [AVbin](https://github.com/AVbin/AVbin)
- * For download manually [AVbin](http://avbin.github.io/AVbin/Download.html)
+
 
 ## Pyaudio
  * Select your achitecture & Download [Pyaudio](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio) from this link.
